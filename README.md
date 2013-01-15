@@ -7,6 +7,8 @@
 - [Instance](#instance-variables)
 - [Class](#class-variables)
 
+- [Instructions](#instructions)
+
 ## Global Variables ##
 
 ```ruby
@@ -136,3 +138,27 @@ pat.number_of_legs => 2
 
 chris.number_of_legs => 2
 ```
+
+## Instructions ##
+
+#### Setup ####
+
+To be able to complete the exercises, you must have Ruby installed on your computer. If you do not have Ruby setup, please visit ruby-lang.org/en/downloads/ for instructions on installation.
+
+Also, you should have Git installed on your computer and a Github account. If you need some help, please visit https://help.github.com/ for instructions on getting setup.
+
+#### Exercises ####
+
+Create a folder in your terminal and clone the repository. Replace the "__" in the tests with your answers and when you are done run the exercise files to get your results. 
+
+For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the command line prompt of the appropriate folder.
+
+
+
+
+
+
+
+
+
+
