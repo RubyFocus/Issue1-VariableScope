@@ -8,15 +8,15 @@
 - Class
 - Special cases - nil and self, true and false (another newsletter)
 
-* auto-gen TOC:
-{:toc}
-
 ## Global Variables ##
 
 ```ruby
 
 $foobar = "I am a global variable! Call me from ANYWHERE!"
 ```
+
+* auto-gen TOC:
+{:toc}
 
 Global variables --which should be used with extreme caution-- are available to use anywhere in your code. You can call them, change them at any point because their scope is global. Due to their accessibility, tracking bugs can be especially difficult. Since changes in a global variable change them everywhere, unintended side effects can easily spring up in your code.
 
