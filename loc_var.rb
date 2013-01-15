@@ -1,6 +1,13 @@
 require 'test/unit'
 
 
+# Local variables are only in scope within the context they were 
+# defined in e.g. blocks, methods, classes (which can be considered 
+# a block). Once you leave the current context either by entering a 
+# new block or exiting the current block, local variables are no longer 
+# available.
+
+
 class OutsideScopeLocalVariables
 
   x = "inside class but outside method"

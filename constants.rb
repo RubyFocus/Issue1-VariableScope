@@ -1,5 +1,14 @@
 require 'test/unit'
 
+# Constant variables, like global variables, can be accessed 
+# from anywhere. The defining characteristic of a Constant 
+# variable is that it begins with an UPPERCASE variable. The 
+# name “constant” is actually a bit misleading because constant 
+# variables can be reassigned, although Ruby will throw you a 
+# warning if you do so. We call this Syntatic Vinegar, which 
+# means Ruby will try you to dissuade you --but not stop you-- 
+# from using best practices. 
+
 RUBY_CONSTANT = "Practice"
 
 class ConstantExercise
