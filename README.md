@@ -13,7 +13,7 @@
 
 ```ruby
 
-$foobar = “I am a global variable! Call me from ANYWHERE!”
+$foobar = "I am a global variable! Call me from ANYWHERE!"
 
 ```
 
@@ -34,13 +34,13 @@ $global_var => "global_value"
 
 ``` ruby
 
-DECK = 52 
+DECK = 52
 
 ACES = 4
 
 ```
 
-Constant variables, like global variables, can be accessed from anywhere. The defining characteristic of a Constant variable is that it begins with an UPPERCASE variable. The name “constant” is actually a bit misleading because constant variables can be reassigned, although Ruby will throw you a warning if you do so. We call this Syntatic Vinegar, which means Ruby will try you to dissuade you --but not stop you-- from using best practices. 
+Constant variables, like global variables, can be accessed from anywhere. The defining characteristic of a Constant variable is that it begins with an UPPERCASE variable. The name "constant" is actually a bit misleading because constant variables can be reassigned, although Ruby will throw you a warning if you do so. We call this Syntatic Vinegar, which means Ruby will try you to dissuade you --but not stop you-- from using best practices.
 
 ``` ruby
 
@@ -56,7 +56,7 @@ Constant::CONST => "constant_value"
 
 ``` ruby
 
-x = “local variable”
+x = "local variable"
 
 ```
 
@@ -68,7 +68,7 @@ In the following example, notice how you can only access local variable ‘x’ 
 
 def local_variable_method_test
   x = "Axe"
-  puts x 
+  puts x
 end
 
 ```
@@ -82,13 +82,13 @@ NameError: undefined local variable or method `x' for main:Object
 
 ## Instance Variables ##
 
-``` ruby 
+``` ruby
 
-@name = “Pat”
+@name = "Pat"
 
 ```
 
-Instance variables, which always begin with an “@”, belong to the instance of the class they were created in. In Ruby, they are often associated with setting attributes when a class instance is initialized, as in the following example:
+Instance variables, which always begin with an "@", belong to the instance of the class they were created in. In Ruby, they are often associated with setting attributes when a class instance is initialized, as in the following example:
 
 ``` ruby
 
@@ -104,7 +104,7 @@ end
 
 
 pat = Person.new("Pat")
-chris = Person.new(“Chris”)
+chris = Person.new("Chris")
 
 pat.display_name => "Person name: Pat"
 
@@ -120,12 +120,12 @@ chris.display_name => "Person name: Chris"
 
 ```
 
-Class variables, which always begin with “@@”,  are defined within the class and are accessible to all instances of that class as well as any class that inherits from them. In the following example, we define a global variable in the Person class and then create a reader method to call the class variable :
+Class variables, which always begin with "@@",  are defined within the class and are accessible to all instances of that class as well as any class that inherits from them. In the following example, we define a global variable in the Person class and then create a reader method to call the class variable :
 
 ``` ruby
 
 class Person
-    @@legs = 2 
+    @@legs = 2
 
    def initialize(name)
       @name=name
@@ -136,13 +136,13 @@ class Person
   end
 
  def number_of_legs
-   @@legs 
+   @@legs
  end
 
 end
 
 pat = Person.new("Pat")
-chris = Person.new(“Chris”)
+chris = Person.new("Chris")
 
 pat.number_of_legs => 2
 
