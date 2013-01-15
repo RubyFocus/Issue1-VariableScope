@@ -2,11 +2,10 @@
 # Variable Scope in Ruby #
 
 - [Global](#global-variables)
-- Constant
-- Local
-- Instance
-- Class
-- Special cases - nil and self, true and false (another newsletter)
+- [Constant](#constant)
+- [Local](#local-variables)
+- [Instance](#instance-variables)
+- [Class](#class-variables)
 
 ## Global Variables ##
 
