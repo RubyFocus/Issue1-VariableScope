@@ -8,6 +8,8 @@
 - Class
 - Special cases - nil and self, true and false (another newsletter)
 
+* auto-gen TOC:
+{:toc}
 
 ## Global Variables ##
 
