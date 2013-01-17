@@ -6,12 +6,6 @@ require_relative 'ruby_focus_helper'
 # are often associated with setting attributes when a class instance
 # is initialized.
 
-# Class variables, which always begin with “@@”,  are defined within
-# the class and are accessible to all instances of that class as well
-# as any class that inherits from them. In the following example, we
-# define a global variable in the Person class and then create a reader
-# method to call the class variable.
-
 
 class Person
   @@full_name = "Class Name"
@@ -34,15 +28,6 @@ end
 
 
 class PersonTest < Test::Unit::TestCase
-
-
-  def test_class_variables_are_different_than_instance_variables
-    person = Person.new
-    person.first_name = "Bob"
-    person.last_name = "Sanders"
-
-    assert_equal __, Person.class_variable_get(:@@full_name)
-  end
 
   def test_that_instance_variables_are_unique_by_instance
     person1 = Person.new
