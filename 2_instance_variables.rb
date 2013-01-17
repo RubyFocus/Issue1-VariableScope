@@ -1,14 +1,15 @@
 require 'test/unit'
+require_relative 'ruby_focus_helper'
 
-# Instance variables, which always begin with an “@”, belong to 
-# the instance of the class they were created in. In Ruby, they 
-# are often associated with setting attributes when a class instance 
+# Instance variables, which always begin with an “@”, belong to
+# the instance of the class they were created in. In Ruby, they
+# are often associated with setting attributes when a class instance
 # is initialized.
 
-# Class variables, which always begin with “@@”,  are defined within 
-# the class and are accessible to all instances of that class as well 
-# as any class that inherits from them. In the following example, we 
-# define a global variable in the Person class and then create a reader 
+# Class variables, which always begin with “@@”,  are defined within
+# the class and are accessible to all instances of that class as well
+# as any class that inherits from them. In the following example, we
+# define a global variable in the Person class and then create a reader
 # method to call the class variable.
 
 
@@ -34,7 +35,7 @@ end
 
 class PersonTest < Test::Unit::TestCase
 
- 
+
   def test_class_variables_are_different_than_instance_variables
     person = Person.new
     person.first_name = "Bob"

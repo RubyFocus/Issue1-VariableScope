@@ -27,8 +27,6 @@ For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the com
 - [Instance](#instance-variables)
 - [Class](#class-variables)
 
-- [Instructions](#instructions)
-
 ## Global Variables ##
 
 ```ruby
