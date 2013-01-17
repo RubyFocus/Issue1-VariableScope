@@ -19,7 +19,7 @@ class LearnLocalVariableScope < Test::Unit::TestCase
   def test_out_of_scope_local_variable
     out_of_scope = "What error gets raised when a variable is out of scope?"
 
-    assert_raise(___) do
+    assert_raise(__) do
       class << self
         # class << self changes the scope of a block
         # so that the local variable that normally would
@@ -50,7 +50,7 @@ class LearnHowMethodsEffectScope < Test::Unit::TestCase
       puts defined_outside_the_method
     end
 
-    assert_raise(___) {access_an_out_of_scope_local_variable}
+    assert_raise(__) {access_an_out_of_scope_local_variable}
   end
 
   def test_methods_as_scope_gates_for_local_variables_defined_inside_method
@@ -59,7 +59,7 @@ class LearnHowMethodsEffectScope < Test::Unit::TestCase
       defined_inside_the_method = "This is a local variable only in the method scope."
     end
 
-    assert_raise(___) {defined_inside_the_method}
+    assert_raise(__) {defined_inside_the_method}
   end
 
 end
@@ -78,8 +78,8 @@ class OutsideScopeLocalVariables
       #If a variable isn't defined it should raise a NameError
       def test_scope_of_local_variables_in_inner_class
         y = "inside method"
-        assert_raise(NameError) {raise x }
-        assert_raise(NameError) {raise z }
+        assert_raise(__) {raise x }
+        assert_raise(__) {raise z }
         assert_equal __, y
       end
     end
@@ -111,14 +111,22 @@ end
 class BlocksAsScopeGates < Test::Unit::TestCase
 
   def test_scope_of_blocks
-
     numbers = 1..10
-    
     numbers.each do |number|
       number += number
     end
 
   assert_raise(__) {number}
+  end
+
+  def test_accessibility_of_variables_in_blocks_declared_outside_of_blocks
+    numbers = 1..10
+    number_count = 0
+    numbers.each do |number|
+      number_count += number
+    end
+
+  assert_equal __, number_count
   end
 
 end
