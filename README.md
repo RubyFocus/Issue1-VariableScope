@@ -19,6 +19,21 @@ Open the file in your text editor and replace the "__" in the tests with your an
 
 For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the command line prompt of the appropriate folder.
 
+#### References and Followups ####
+
+Here is a list of some other great resources that might help you.
+
+[ruby.runpaint.com](http://ruby.runpaint.org/variables)
+
+[railstips- class and instance variables](http://railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/)
+
+[techtopia](http://www.techotopia.com/index.php/Ruby_Variable_Scope)
+
+[video by tekniqal](http://www.tekniqal.com/2009/3/Variable-Scope-in-Ruby)
+
+Also, I would like to give many thanks to Jim Weirich and Joe O'Brien, the creators of Ruby Koans, for helping me on my journey to become a better Rubyist. [Ruby Koans](http://http://rubykoans.com/)
+
+
 # Variable Scope in Ruby #
 
 - [Global](#global-variables)

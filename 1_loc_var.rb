@@ -80,7 +80,7 @@ class OutsideScopeLocalVariables
         y = "inside method"
         assert_raise(NameError) {raise x }
         assert_raise(NameError) {raise z }
-        assert_equal inside method, y
+        assert_equal __, y
       end
     end
   end
@@ -107,3 +107,21 @@ end
 
 
 # Blocks as scope gates
+
+class BlocksAsScopeGates < Test::Unit::TestCase
+
+  def test_scope_of_blocks
+
+    numbers = 1..10
+    
+    numbers.each do |number|
+      number += number
+    end
+
+  assert_raise(__) {number}
+  end
+
+end
+
+
+

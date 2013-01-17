@@ -7,7 +7,6 @@ require_relative 'ruby_focus_helper'
 # define a global variable in the Person class and then create a reader
 # method to call the class variable.
 
-# 
 
 class People 
   @@country = "Brazil"
