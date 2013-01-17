@@ -1,3 +1,23 @@
+## Instructions ##
+
+#### Setup ####
+
+To be able to complete the exercises, you must have Ruby installed on your computer. If you do not have Ruby setup, please visit http://ruby-lang.org/en/downloads/ for instructions on installation.
+
+Also, you should have Git installed on your computer and a Github account. If you need some help, please visit http://try.github.com and https://help.github.com/ for instructions on getting setup.
+
+While just about any text editor will do, I suggest trying [Sublime Text 2](www.sublimetext.com), [TextMate](www.macromates.com), or [Emacs](www.gnu.org/s/emacs).
+
+
+#### To Complete the Exercises ####
+
+Clone this repository.
+
+`git clone https://github.com/RubyFocus/Issue1-VariableScope.git`
+
+Open the file in your text editor and replace the "__" in the tests with your answers and when you are done run the exercise files to get your results.
+
+For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the command line prompt of the appropriate folder.
 
 # Variable Scope in Ruby #
 
@@ -138,22 +158,3 @@ pat.number_of_legs => 2
 
 chris.number_of_legs => 2
 ```
-
-## Instructions ##
-
-#### Setup ####
-
-To be able to complete the exercises, you must have Ruby installed on your computer. If you do not have Ruby setup, please visit ruby-lang.org/en/downloads/ for instructions on installation.
-
-Also, you should have Git installed on your computer and a Github account. If you need some help, please visit https://help.github.com/ for instructions on getting setup.
-
-While just about any text editor will do, I suggest trying [Sublime Text 2](www.sublimetext.com), [TextMate](www.macromates.com), or [Emacs](www.gnu.org/s/emacs).
-
-
-#### To Complete the Exercises ####
-
-Create a folder in your terminal and clone the repository. Open the file in your text editor and replace the "__" in the tests with your answers and when you are done run the exercise files to get your results. 
-
-For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the command line prompt of the appropriate folder.
-
-
