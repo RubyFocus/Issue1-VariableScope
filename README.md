@@ -39,7 +39,7 @@ Variables are used to temporarily store data that can be reused and manipulated.
 
 #### The Do’s ####
 
-1. Make your variable names meaningful. The names of your variables should be descriptive of the data assigned to it. Not only will it be easier for you to understand what that variable points to, but it will be easier for your co-workers to understand what that variable points to. This is considered a good practice and will probably earn you a lot more friends.
+1. Make your variable names meaningful. The names of your variables should be descriptive of the data assigned to it. Not only will it be easier for you to understand what that variable points to, but it will be easier for your co-workers to understand what that variable points to, also.
 
 2. Do use the #local_variables method. Variables are subject to scope, whether you like it or not. This is a great way to find out what variables are in the scope of the part of the program you are working in. Knowing is half the battle.
 
@@ -52,7 +52,7 @@ Variables are used to temporarily store data that can be reused and manipulated.
 
 3. Don’t use single letter variables. I somewhat covered this already in #1 of the “Do’s”, but I think this is so important it should be said twice. Variable names should be meaningful. Assigning the letter “a” to a gets#chomp method on a string requesting user input is just mean. Don’t be mean.
 
-If you follow this short list of Do’s and Don’ts, you will be rocking Ruby variables like a superstar. Stay strong. Stay focused….and don’t use single letter variables. Unless, of course, you don’t like having friends.
+If you follow this short list of Do’s and Don’ts, you will be rocking Ruby variables like a superstar. Stay strong. Stay focused. Don’t use single letter variables.
 
 
 # Variable Scope in Ruby #
