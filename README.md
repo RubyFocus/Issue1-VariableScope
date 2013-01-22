@@ -33,6 +33,27 @@ Here is a list of some other great resources that might help you.
 
 Also, I would like to give many thanks to Jim Weirich and Joe O'Brien, the creators of Ruby Koans, for helping me on my journey to become a better Rubyist. [Ruby Koans](http://http://rubykoans.com/)
 
+# Variables #
+
+Variables are used to temporarily store data that can be reused and manipulated. Think of them like a box. A box with a label on it that you created so that you can reference that piece of data easily. Variables are assigned using the '=' symbol. There are many types available for use, but there are some general good practices to assigning variables that I want to cover. 
+
+#### The Do’s ####
+
+1. Make your variable names meaningful. The names of your variables should be descriptive of the data assigned to it. Not only will it be easier for you to understand what that variable points to, but it will be easier for your co-workers to understand what that variable points to. This is considered a good practice and will probably earn you a lot more friends.
+
+2. Do use the #local_variables method. Variables are subject to scope, whether you like it or not. This is a great way to find out what variables are in the scope of the part of the program you are working in. Knowing is half the battle.
+
+
+#### The Don’ts #####
+
+1. Do not begin a variable with a number. Not only should you not do this, but you CAN’T do this. This is so the interpreter can distinguish between a variable and an integer. Don’t confuse the interpreter. The interpreter is your friend. Although, you can’t begin a variable with a number, Ruby does accept an underscore as the beginning of a variable.
+
+2. Do not begin a variable with an uppercase letter. Ruby is case-sensitive. Variables must begin with a lowercase letter. To do otherwise would be to create a Constant. Constants are just that, constant. They aren’t supposed to be changed throughout the duration of the program (although, they can be. We will get into this shortyly). Avoiding uppercase letters in your variables will help you avoid unwanted headaches.
+
+3. Don’t use single letter variables. I somewhat covered this already in #1 of the “Do’s”, but I think this is so important it should be said twice. Variable names should be meaningful. Assigning the letter “a” to a gets#chomp method on a string requesting user input is just mean. Don’t be mean.
+
+If you follow this short list of Do’s and Don’ts, you will be rocking Ruby variables like a superstar. Stay strong. Stay focused….and don’t use single letter variables. Unless, of course, you don’t like having friends.
+
 
 # Variable Scope in Ruby #
 
