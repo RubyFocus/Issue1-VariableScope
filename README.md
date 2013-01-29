@@ -17,7 +17,9 @@ Clone this repository.
 
 Open the file in your text editor and replace the "__" in the tests with your answers and when you are done run the exercise files to get your results.
 
-For example, to run glob_var.rb, use the 'ruby glob_var.rb' command from the command line prompt of the appropriate folder.
+For example, to run 5_glob_var.rb, use the '5_ruby glob_var.rb' command from the command line prompt of the appropriate folder.
+
+Doing the exercises in order will obviously help too :-) Enjoy.
 
 #### References and Followups ####
 
