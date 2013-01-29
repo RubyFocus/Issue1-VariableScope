@@ -24,7 +24,7 @@ end
 
 class InsideClassGlobalVariableTest < Test::Unit::TestCase
   def test_accessibility_from_global_scope
-    assert_equal __, $global_var
+    assert_equal __, $glob_var
   end
 
   def test_accessibility_in_class_method
