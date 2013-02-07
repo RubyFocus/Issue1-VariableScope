@@ -17,7 +17,7 @@ Clone this repository.
 
 Open the file in your text editor and replace the "__" in the tests with your answers and when you are done run the exercise files to get your results.
 
-For example, to run 5_glob_var.rb, use the '5_ruby glob_var.rb' command from the command line prompt of the appropriate folder.
+For example, to run the tests in 5_glob_var.rb, enter `ruby 5_glob_var.rb` into the command line prompt of the Issue1-VariableScope folder.
 
 Doing the exercises in order will obviously help too :-) Enjoy.
 
@@ -37,7 +37,7 @@ Also, I would like to give many thanks to Jim Weirich and Joe O'Brien, the creat
 
 # Variables #
 
-Variables are used to temporarily store data that can be reused and manipulated. Think of them like a box. A box with a label on it that you created so that you can reference that piece of data easily. Variables are assigned using the '=' symbol. There are many types available for use, but there are some general good practices to assigning variables that I want to cover. 
+Variables are used to temporarily store data that can be reused and manipulated. Think of them like a box. A box with a label on it that you created so that you can reference that piece of data easily. Variables are assigned using the '=' symbol. There are many types available for use, but there are some general good practices to assigning variables that I want to cover.
 
 #### The Do’s ####
 
@@ -93,7 +93,7 @@ DECK = 52
 ACES = 4
 ```
 
-Constant variables, like global variables, can be accessed from anywhere. The defining characteristic of a Constant variable is that it begins with an UPPERCASE variable. The name "constant" is actually a bit misleading because constant variables can be reassigned, although Ruby will throw you a warning if you do so. We call this Syntatic Vinegar, which means Ruby will try you to dissuade you --but not stop you-- from using best practices.
+Constant variables, like global variables, can be accessed from anywhere. The defining characteristic of a Constant variable is that it begins with an UPPERCASE variable. The name "constant" is actually a bit misleading because constant variables can be reassigned, although Ruby will throw you a warning if you do so. We call this *Syntactic Vinegar*, which means Ruby will try you to dissuade you --but not stop you-- from using best practices.
 
 ``` ruby
 
